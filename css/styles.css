@@ -4,6 +4,27 @@ body{
     font-family: 'Merriweather', serif;
     color: #40514e;
 }
+
+figure {
+    width:30%;
+    margin:0px;
+    text-align:center;
+    padding:0px;
+    display: inline-block;
+}
+figcaption {
+    color: black;
+    /* font-style: italic; */
+    /* padding: 2px;  */
+    text-align: center;
+}
+.category{
+    text-align: center;
+    margin: 10px 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
 hr{
     border: dotted #EAF6F6 6px;
     border-bottom: none;
@@ -63,22 +84,20 @@ a:hover{
     margin: auto;
 }
 .skillicon{
-    width: 10%;
-    /* float: left; */
-    margin-right: 30px;
+    width: 15%;
 }
 .guitar{
     width: 10%;
     float: left;
     margin-left: 30px;
 }
-.skill-row{
+/* .skill-row{
     width: 50%;
     margin: auto;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
-}
+} */
 .middle-container{
     padding: 100px 0;
 }
@@ -89,6 +108,7 @@ a:hover{
     /* background-color: #66BFBF; */
     background-color: darkslategrey;
     padding: 50px 0 20px;
+    text-align: center;
 }
 .footer-link{
     margin: 30px 30px auto 30px;
