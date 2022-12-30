@@ -1,8 +1,8 @@
-.nav{
-    background-color: #28282B;
-    padding: 5px 10px;
-}
-  
+.mode{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+} 
 label{
     margin-left: 1400px;
     width:100px;

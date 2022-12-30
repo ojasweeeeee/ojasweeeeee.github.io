@@ -1,10 +1,10 @@
-.nav{
-    background-color: darkslategrey;
-    padding: 5px 10px;
+.mode{
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
-  
 label{
-    margin-left: 1400px;
+    /* margin-left: 1400px; */
     width:100px;
     height:40px;
     position: relative;
